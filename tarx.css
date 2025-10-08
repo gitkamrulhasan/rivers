@@ -1,0 +1,100 @@
+ h1{
+        color: blue;
+        size: 15px;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    img{
+        width: 300px;
+         height: 150px;
+         display: flex;
+          margin: 0% auto;
+    }
+    h2{
+        color: #009432;
+        font-size: 17px;
+    }
+    h3{
+        font-size: 14px;
+        font-family: sans-serif;
+    } 
+    /* background-color only */
+
+ .first{
+        background: #FC8934;
+        padding: 100px;
+        border: 5px solid aqua;
+    }
+  .first h1{
+         margin-top: -80px;
+     }
+      /* add background-image only */
+    .two{
+         background: whitesmoke; 
+        background-image: url(image/megla\ river\ img.jpeg);
+        /* width: 100%;
+        height: 300px; */
+        padding: 100px;
+        border: 2px solid tomato;
+        margin-top: 5px;
+        z-index: -1;
+    }
+      .two h2{
+        font-size: 20px;
+      }
+    .two h3{
+        color:rgb(0, 0, 0);
+        font-size: 30px;
+         z-index: 3;
+    }
+
+    /* add background-image + background repea */
+    .three{
+         /* background: rgb(172, 148, 148); */
+         background-image: url(image/jmuna\ river\ img.jpeg);
+         background-repeat: repeat-x;
+        padding: 100px;
+        border: 5px solid tomato;
+        margin-top: 5px;
+    }
+  
+     
+     .three h2,h3{
+        margin-top: 50px;
+
+     }
+        .three h2{
+        margin-top: 80px;}
+        /* add background-image + background-repeat+ background-position */
+    .four{
+           /* background: #FC8934; */
+           background-image:url(image/krnofili\ river\ img.jpeg) ;
+           background-repeat: no-repeat;
+          background-position: top;
+        padding: 100px;
+        border: 2px solid tomato;
+        margin-top: 5px;
+    }
+    .four h2{
+        color: blue;
+    }
+
+/* add background-image + background-repeat+ background-position+ background-size
+ */
+.five{
+    background-image: url(image/berakonputoro\ river\ imge.jpeg);
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin-top: 10px;
+   border: 5px solid #FC8934 ;
+   background-size: cover;
+
+}
+.five h3{
+    font-size: 25px;
+    color:black;
+}
+.five h2{
+    font-size: 20px;
+}
